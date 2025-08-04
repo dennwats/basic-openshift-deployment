@@ -39,7 +39,8 @@ crc setup
 crc start
 ```
 
-📸 *Screenshot: Terminal showing `crc start` output (console URL + credentials)*
+<img width="826" height="969" alt="crc-start" src="https://github.com/user-attachments/assets/737f2ac0-aa4d-4fea-9357-be9cbc1449f7" />
+
 
 ---
 
@@ -49,7 +50,8 @@ crc start
 oc login --token=<your_token> --server=https://api.crc.testing:6443
 ```
 
-📸 *Screenshot: CLI or web login confirmation*
+<img width="865" height="190" alt="oc-login" src="https://github.com/user-attachments/assets/ffc52caf-b6b4-43d3-9dd3-5cb9ea02ea48" />
+
 
 ---
 
@@ -59,7 +61,8 @@ oc login --token=<your_token> --server=https://api.crc.testing:6443
 oc new-project dev
 ```
 
-📸 *Screenshot: Output of `oc new-project dev`*
+<img width="1130" height="274" alt="project-created" src="https://github.com/user-attachments/assets/389e3a58-7a70-413f-82de-ead916fe112e" />
+
 
 ---
 
@@ -93,7 +96,8 @@ spec:
 oc apply -f manifests/nginx-deployment.yaml
 ```
 
-📸 *Screenshot: Output of `oc get pods` showing nginx pod in Running state*
+<img width="586" height="69" alt="pod-running" src="https://github.com/user-attachments/assets/2456557f-84cd-42e4-bf46-7365e6befaab" />
+
 
 ---
 
@@ -119,7 +123,8 @@ spec:
 oc apply -f manifests/nginx-service.yaml
 ```
 
-📸 *Screenshot: Output of `oc get svc`*
+<img width="626" height="65" alt="service" src="https://github.com/user-attachments/assets/036c4d19-62df-4f46-9bdd-ea806e204e1e" />
+
 
 ---
 
@@ -145,7 +150,8 @@ oc apply -f manifests/nginx-route.yaml
 oc get route
 ```
 
-📸 *Screenshot: Output showing route URL like `http://nginx-dev.apps-crc.testing`*
+<img width="877" height="67" alt="route-exposed" src="https://github.com/user-attachments/assets/bfc9a293-95c0-443d-be9d-c430b55a40ba" />
+
 
 ---
 
@@ -154,7 +160,8 @@ oc get route
 - Paste the route URL in your browser.
 - You should see the NGINX welcome page.
 
-📸 *Screenshot: Browser showing NGINX*
+<img width="1172" height="402" alt="nginx-browser" src="https://github.com/user-attachments/assets/ca505cf7-927b-4f9d-bd8f-3c18b09bb178" />
+
 
 ---
 
